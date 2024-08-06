@@ -1,0 +1,377 @@
+
+html {
+	scroll-behavior: smooth;
+  }
+#time{
+    color: green;
+    font-size: medium;
+    font-weight: bolder;
+}
+
+/* hire me button */
+.hire-me{
+    
+    justify-content: center;
+    align-items: center;
+    
+   text-decoration: none;
+   background-color: hotpink;
+   color: white;
+   border-radius: 5px;
+}
+.hire-me button{
+    
+    align-items: center;
+    color: white;
+}
+.hire-me button:hover{
+    color: #e73131;
+    background-color: aqua;
+}
+
+
+/* hire me button ends here */
+
+
+#upcol{
+    /* color: red; */
+    display: flex;
+    padding: 15px 0px 15px 0px;
+    top: 0;
+    background-color:#0f203a;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    }
+    .row{
+        width: 100%;
+        padding-right: 50px;
+        border-top-right-radius: 5px;
+    }
+#upcol a{
+    padding: 10px 15px 10px 15px;
+    border-radius: 5%;
+    margin: 15px;
+    color: #fff;
+    font-size: medium;
+    border: none;
+    background: none;
+    text-decoration: none;
+    
+}
+
+#upcol a:hover{
+    color:pink;
+}
+/* About Section Start */
+
+#aboutMe{
+color: #0A1525;
+font-size: 38px;
+font-family: sans-serif;
+text-align: center;
+letter-spacing: 0.5rem;
+/* align-items: center;
+align-content: center; */
+/* margin: 0 0 25px; */
+}
+.cont{
+    text-align: center;
+    margin-top: 50px;
+    background: linear-gradient(135deg, aqua,rgb(202, 114, 174),rgb(75, 151, 194));
+    padding: 50px;
+    color: white;
+}
+
+#aboutUs h6{
+    color: #0A1525;
+    font-size: 16px;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 10px;
+}
+
+
+#aboutUs h3{
+    color: #0A1525;
+    font-size: 28px;
+    font-family: sans-serif;
+    
+    margin: 0 0 5px;
+}
+
+#aboutUs p{
+    color: #0A1525;
+    font-size: 14px;
+    padding: 15px 0;
+    font-family: sans-serif;
+   text-align: justify;
+}
+#aboutUs{
+    margin: 30px;
+}
+
+ul{
+    list-style-type: circle;
+}
+.row2 ul{
+    line-height: 137px;
+    font-size: 17px;
+}
+/* About Section End */
+
+/* skills */
+h1{
+    text-align: center;
+}
+h3{
+    margin: 5px;
+}
+
+.skill{
+    width: 500px;
+    /* margin: 60px auto; */
+    color: #fff;
+    padding: 20px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.skill li{
+    margin: 20px 0;
+    padding: 10px;
+}
+
+.bar{
+    background: #353b48;
+    display: block;
+    height: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.bar:hover{
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.bar span{
+    height: 20px;
+    float: left;
+    background: linear-gradient(135deg, rgba(236, 0, 140, 1)0%, rgba(252, 103, 103, 1.0));
+}
+
+.html{
+    width: 90%;
+    text-align: center;
+    animation: html 3s;
+}
+.css{
+    width: 90%;
+    text-align: center;
+    animation: css 3s;
+}
+.javascript{
+    width: 70%;
+    text-align: center;
+    animation: javascript 3s;
+}
+.bootstrap{
+    width: 70%;
+    text-align: center;
+    animation: bootstrap 3s;
+}
+.github{
+    width: 65%;
+    text-align: center;
+    justify-content: center;
+    animation: github 3s;
+}
+@keyframes html {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+@keyframes css {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+@keyframes javascript {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+@keyframes bootstrap {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+@keyframes github {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 65%;
+    }
+}
+#tech{
+    text-align: center;
+    letter-spacing: 0.2rem;
+}
+.row2{
+    display: flex;
+}
+#icon{
+    background-color: white;
+    text-align: center;
+
+}
+#letConnect{
+    text-align: center;
+    margin: 0;
+    font-size: 40;
+    font-family: sans-serif;
+    color: #ffffff;
+    padding: 40px;
+}
+.container2{
+    background-color: #0c444b;
+    width: 100%;
+    /* margin-left: 10px;
+    margin-right: 10px; */
+    margin: 0;
+    padding: 10px;
+}
+#service{
+    background-color: rgb(184, 30, 107);
+    background: linear-gradient(135deg, rgb(122, 182, 208)0%, rgba(252, 103, 103, 0.1));
+    text-align: center;
+    padding: 50px;
+    color: aliceblue;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+#techSkills{
+    margin: 30px 40px;
+}
+#service_para{
+    line-height: 20px;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: justify;
+}
+.row{
+    display: inline;
+}
+.container h2{
+    font-size: 38px;
+    color: #ffffff;
+    font-family: sans-serif;
+    text-align: center;
+
+}
+.container h3 p{
+    text-align: justify;
+}
+.row3{
+    display: flex;
+}
+
+.row3 ul li {
+    display: inline;
+    padding: 10px;
+    /* margin: 10px 10px 10px 5px; */
+    font-size: 25px;
+}
+
+.row3 ul li a{
+    text-decoration: none;
+    color: white;
+    width: 50px;
+    height: 50px;
+}
+.row3 ul li a:hover{
+    color: #e73131;
+}
+#linkdin{
+    margin-left: -50px;
+}
+#linkdin:hover{
+    color: rgb(27, 66, 150);
+}
+#detail{
+    line-height: 40px;
+}
+input{
+    background-color: #0c444b;
+    width: 500px;
+    border-color: white;
+    color: #8a8989;
+    border-color: white;
+    
+}
+textarea{
+    background-color: #0c444b;
+    width: 500px;
+    color: #8a8989;
+    border-color: white;
+}
+input::placeholder{
+    border: none;
+    /* border-radius: 10px; */
+    background-color: #0c444b;
+    background: #0c444b;
+    
+    color: #8a8989;
+    
+}
+#detail button{
+    background-color: #e73131;
+    color: white;
+    font-weight: 500;
+    font-size: large;
+    padding: 5px 15px 5px 15px;
+}
+#detail button:hover{
+background-color: white;
+color: #340a0a;
+
+}
+#para2{
+    color: #8a8989;
+    font-size: 18px;
+    
+}
+#para3{
+    color: #8a8989;
+    font-size: 20px;
+    
+}
+#para{
+    color: white;   
+}
+.foot{
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.foot a{
+    text-decoration: none;
+    color: #e73131;
+}
